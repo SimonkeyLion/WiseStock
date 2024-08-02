@@ -1,0 +1,1 @@
+const express = require('express'); const app = express(); const port = process.env.PORT || 3001; app.get('/', (req, res) => { res.send('Inventory Service is running'); }); app.listen(port, () => { console.log(`Inventory Service is running on port ${port}`); });

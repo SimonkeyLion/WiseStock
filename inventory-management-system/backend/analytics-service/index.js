@@ -1,0 +1,1 @@
+const express = require('express'); const app = express(); const port = process.env.PORT || 3005; app.get('/', (req, res) => { res.send('Analytics Service is running'); }); app.listen(port, () => { console.log(`Analytics Service is running on port ${port}`); });
